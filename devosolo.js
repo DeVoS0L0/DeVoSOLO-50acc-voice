@@ -52,17 +52,17 @@ const devosolo50 = new Discord.Client();
 
 ////////////////////////////////////////////// bas id voice dane
 devosolo.on("ready", () => {
-  var join = devosolo.channels.get("920011397885218816"); /// id voice
+  var join = devosolo.channels.get(""); /// id voice
   if (join) join.join();
 });
 ////////////////
 devosolo2.on("ready", () => {
-  var join = devosolo2.channels.get("920011397885218816"); /// id voice
+  var join = devosolo2.channels.get(""); /// id voice
   if (join) join.join();
 });
 ////////////////
 devosolo3.on("ready", () => {
-  var join = devosolo3.channels.get("920011397885218816"); /// id voice
+  var join = devosolo3.channels.get(""); /// id voice
   if (join) join.join();
 });
 ////////////////
@@ -303,9 +303,9 @@ devosolo50.on("ready", () => {
 
 //////////////// tokn lera da bne
 
-devosolo.login("OTI0MjQxOTY3MTk2NTQ5MTMw.YcbtlA.XZYri5G346XP-0Eadf4gg0-g9I8");
-devosolo2.login("OTI0MjQwNjgwMzYzMDk4MTQy.Ycbsig.gdDiDnZNpQN_rARkYSmChMvo28A");
-devosolo3.login("OTI0MDIzNDQ1NTcyOTUyMDY1.YcbrCQ.hzNwbsBOofhSw6ki0QuTNJmmkrk");
+devosolo.login("");
+devosolo2.login("");
+devosolo3.login("");
 devosolo4.login("");
 devosolo5.login("");
 devosolo6.login("");
