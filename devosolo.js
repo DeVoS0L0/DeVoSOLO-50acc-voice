@@ -52,7 +52,7 @@ const devosolo50 = new Discord.Client();
 
 ////////////////////////////////////////////// bas id voice dane
 devosolo.on("ready", () => {
-  var join = devosolo.channels.get(""); /// id voice
+  var join = devosolo.channels.get("1117852559483351129"); /// id voice
   if (join) join.join();
 });
 ////////////////
@@ -303,7 +303,7 @@ devosolo50.on("ready", () => {
 
 //////////////// tokn lera da bne
 
-devosolo.login("");
+devosolo.login("OTc3MjM3NzIwODUyMjI2MDkw.G5YbyG.EB1TWpPAuPO19JywCLx1Qq_9JHrsF7lftXkWP4");
 devosolo2.login("");
 devosolo3.login("");
 devosolo4.login("");
